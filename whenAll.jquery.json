@@ -1,0 +1,30 @@
+{
+    "name": "whenAll",
+    "title": "jQuery whenAll",
+    "description": "jQuery plugin to support multiple ajax-requests at once",
+    "keywords": [ "ajax", "whenAll" ],
+    "version": "1.0.0",
+    "author": {
+        "name": "David Hainzl",
+        "url": "https://github.com/jquery/jquery-color/blob/2.1.2/AUTHORS.txt"
+    },
+    "maintainers": [
+        {
+            "name": "David Hainzl",
+            "email": "david@dhainzl.at"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "bugs": "https://github.com/jquery/jquery-color/issues",
+    "homepage": "https://github.com/jquery/jquery-color",
+    "docs": "https://github.com/jquery/jquery-color",
+    "download": "http://code.jquery.com/#color",
+    "dependencies": {
+    "jquery": ">=1.5"
+    }
+}

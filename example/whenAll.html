@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Demo page for jQuery.whenAll</title>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="jquery.whenAll.min.js"></script>
+        <script src="whenAll.js"></script>        
+    </head>
+    
+    <body>
+        <ol>
+            <li>Fetching three pages simultaneously: <button id="demo_1">Test</button></li>
+            <li>Degradable: fetch just one: <button id="demo_2">Test</button></li>
+            <li>Custom: Enter as many pages as you want (one per line)<br /><textarea rows="6" cols="50" id="demo_3_text"></textarea><button id="demo_3">Test</button></li>
+        </ol>
+        <div id="console">
+            <div class="message">Test test</div>
+            <div class="error">Error Error</div>
+        </div>
+    </body>
+</html>
